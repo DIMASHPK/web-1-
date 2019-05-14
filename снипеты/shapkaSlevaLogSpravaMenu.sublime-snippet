@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[
+<header>
+		<div class="${1:centr}">
+			<span class="${2:logo}">${3:Cage app}</span>
+			<ul class="mainMenu">
+				<li class="itemOfMenu">${4:}
+					<img src="img/icon1.png" alt="home" class="itemLogo" height="18" width="19" />
+					<span class="itemName">Home</span>
+				</li>
+				<li class="itemOfMenu">${5:}
+					<img src="img/icon2.png" alt="gallery" class="itemLogo" height="15" width="22"/>
+					<span class="itemName">Gallery</span>
+				</li>
+				<li class="itemOfMenu">${6:}
+					<img src="img/icon3.png" alt="members" class="itemLogo" height="17" width="27"/>
+					<span class="itemName">Members</span>
+				</li>
+				<li class="itemOfMenu">${7:}
+					<img src="img/icon4.png" alt="logout" class="itemLogo" height="20" width="17"/>
+					<span class="itemName">logout</span>
+				</li>
+			</ul>
+		</div>	
+	</header>.
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>shapka</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

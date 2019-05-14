@@ -1,0 +1,264 @@
+$grey: rgb(151,147,147)
+
+/* Стили шапки */
+.section
+	background: rgb(231,231,231);
+	.container
+		.row	
+			height: 118px;
+			display: flex;
+			align-items: center;
+			.logo:before
+				content: 'Photo';
+				color: rgb(255,119,0); 
+				font-family: 'Lobster', cursive;
+			.logo
+				font-family: 'Lobster', cursive;	
+				font-size: 49px;
+			.mainMenu
+				display: inline-flex;
+				align-items: center;
+				height: 118px;
+				padding-top: 10px;
+				.itemOfMenu
+					display: flex;
+					height: 118px;
+					align-items: center;
+					justify-content: center;
+					flex-direction: column;
+					width: 110px;
+					list-style-type: none;
+					position: relative;
+					.itemLogo
+						margin-bottom: 14px;
+						transform: translateY(20px);
+						transition: 0.5s;
+					.itemName	
+						font-family: 'Helvetica', cursive;
+						color: rgb(99,99,99);
+						font-size: 16px;
+						transition: 0.5s;
+						transform: translateY(-10px);
+						visibility: hidden;
+				.itemOfMenu:before
+					content: ''; 
+					position: absolute;
+					top: 0%;
+					bottom: 0%;
+					right: 0%;
+					left: 0%;
+					border-top: solid 2px rgb(201,98,0);
+					border-bottom: solid 2px rgb(201,98,0);
+					transition: 1.2s;
+					transform: scaleX(0);	
+				.itemOfMenu:hover:before
+					transform: scaleX(1);
+				.itemOfMenu:after
+					content: ''; 
+					position: absolute;
+					top: 0%;
+					bottom: 0%;
+					right: 0%;
+					left: 0%;
+					border-left: solid 1px rgb(204,204,204);
+					border-right: solid 1px rgb(204,204,204);
+					transition: 1.2s;
+					transform: scaleY(0);		
+				.itemOfMenu:hover:after
+					transform: scale(1);	
+				.itemOfMenu:hover
+					background: rgb(208,201,201);
+					cursor: pointer;
+					.itemLogo, .itemName	
+						transform: translate(0);
+						transition: 0.5s;
+						visibility: visible;
+		/* Стили основы сайта */
+	/* Стиль заголовка */				
+.Select 
+	font-size: 28px;
+	font-family: "Helvetica";		
+	font-weight: bold;
+	color: rgb(86,85,85);
+/* Стиль поля для загрузик фото */
+form
+	display: flex
+	margin-top: 30px
+	.chooseImg 
+		width: 447px;
+		height: 47px;
+		position: absolute;
+		opacity: 0;
+		z-index: 0;
+	.browse
+		margin-right: 15px
+		z-index: 1;
+		position: relative;
+		width: 447px;
+		height: 47px;
+		border: 1px solid rgb(202,202,202);
+		border-radius: 8px;
+		.btnBrowse
+			width: 94px
+			height: 33px
+			background: rgb(193,191,191)
+			border-radius: 8px
+			display: flex
+			align-items: center
+			justify-content: center
+			color: white
+			cursor: pointer
+			position: absolute
+			right: 7px
+			top: 6px
+			font-family: "Tahoma"
+			font-size: 17px;
+			font-weight: 100
+	.btnSend
+		width: 210px
+		height: 48px
+		display: flex
+		align-items: center
+		justify-content: center
+		border-radius: 8px
+		border: none
+		font-family: "Tahoma"
+		font-size: 24px
+		font-weight: bold
+		color: white
+		background-image: linear-gradient(rgb(255,156,0),rgb(255,107,0))
+/* photos */
+.photos
+	margin-top: 72px
+	width: 1024px
+	height: 906px
+	padding-left: 0
+	.one
+		height: 280px
+		margin-bottom: 30px
+		.col-lg-3
+			padding: 0px
+			.inner
+				border: 1px solid rgb(214,214,214)
+				height: 280px
+				width: 218px
+				padding: 0px
+				margin: 
+					left: 20px
+					right: 20px
+				.image
+					display: block
+					padding: 7px
+				.description
+					margin: auto
+					padding: 10px 0px 6px 0px
+					width: 200px
+					border-bottom: 1px solid $grey 
+					color: $grey 
+					span
+						padding-right: 10px
+						font-family: "Helvetica"
+						font-size: 15px
+				.share
+					margin-top: 4px
+					margin-left: 82px
+					display: flex
+					.sharetxt
+						color: $grey
+						font-size: 14px
+						font-family: "Helvetica"
+						margin-left: -28px;
+						margin-right: 14px
+					.socialMedia
+					  .dropMenu
+					  	padding: 0px;
+					  	list-style-type: none;
+					  	display: flex;
+					  	width: 100px;
+					  	height: 20px;
+					  	.menu_list
+					  		width: 20px;
+					  		height: 20px;
+					  		margin-right: 5px;
+					  		border-radius: 10px
+					  		background: grey
+					  		text-align: center
+					  		a
+					  			height: 20px
+					  			width: 20px
+					  			display: block
+					  			img
+					  				padding-bottom: 2px
+					  		.dropPodMenu	
+					  			width: 125px
+					  			height: 20px
+					  			padding: 0px
+					  			visibility: hidden	
+					  			transition-delay: 0.2s
+					  			.dropPodList
+					  				width: 120px
+					  				height: 25px
+					  				list-style-type: none
+					  				position: relative
+					  				top: -10px
+					  				right: 15px
+					  				svg
+					  					width: 17px
+					  					height: 5px
+					  					margin-right: 70px
+					  				span
+					  					display: block
+					  					width: 120px
+					  					height: 20px 
+					  					background: black
+					  					color: white
+					  					margin-top: -6px
+					  					font-family: 'Helvetica'
+					  					font-size: 14px
+					  		&:hover
+					  			background: blue;
+					  			.dropPodMenu
+					  				visibility: visible		
+
+
+										
+
+							
+
+							
+											
+
+						
+
+					
+
+						
+
+
+
+	
+
+		
+
+
+
+
+
+
+	
+	
+	
+	
+
+
+	
+/*footer*/
+footer
+	width: 1170px
+	span
+		color: $grey
+		display: block
+		padding-right: 25px
+		padding-top: 60px
+		font-size: 17px
+		font-family: 'Arial'

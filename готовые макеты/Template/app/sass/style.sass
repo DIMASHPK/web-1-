@@ -1,0 +1,290 @@
+@import drop_menu.sass
+
+html 
+	overflow-x: hidden;
+	background: white;
+	font-family: Segoe WP SemiLight;
+	margin: 0 auto;
+	padding: 0;
+	width: 1280px;
+
+body
+	margin: auto;
+	padding: auto;	
+header 
+	color: black;
+	width: 1024px;
+	height: 75px;
+	margin: 25px auto;
+	margin-bottom: 0px; 
+	display: flex;
+	.logo 
+		padding-left: 35px; 	
+	.letters 
+		font-family: St Ryde;
+		color: rgb(3,140,140);
+		padding-left: 8px;
+		font-size: 43px;
+	.main-menu
+		font-size: 19px;
+		vertical-align: 
+		padding-top: 10px;	
+		color: rgb(155,155,155);		
+		span 
+				padding-right: 20px;
+				padding-left: 20px;
+				border-right: 1px solid rgb(102,102,102);		
+		.menu
+			border-right: none;
+main
+	min-width: 1280px;
+	max-width: 75%;
+	margin: auto;
+	padding: auto;
+	z-index: 2;
+.firstsection
+	margin: auto;
+	padding: auto;
+	background: url(../img/bgr.png)	no-repeat;
+	min-height: 539px;
+	min-width: 1280px;
+	max-width: 1600px;
+	display: flex;
+	img[src="img/iphone.png"] 
+		padding: 
+			top: 60px;	
+			left: 296px;
+	.description
+		width: 400px;
+		padding: 
+			top: 180px;
+			left: 88px;
+		position: relative;
+		z-index: 1;
+	.earth 
+	 		height: 60px;
+	 		width: 160px;
+	 		display: flex;
+	 		padding-bottom: 60px;
+	 		span 
+	 			font-size: 21px;
+	 			padding-left: 10px;
+	 			color: white; 
+	.text
+		padding-bottom: 35px;
+		width: 350px;
+		span
+			color: white; 
+	.buy
+		display: flex;
+		a
+			svg
+				height: 45px;
+				width: 55px;
+				background: rgb(37,157,142);
+		div 
+			height: 45px;
+			width: 115px;
+			background: rgb(84,211,195);  
+			a 
+				text-decoration: none;
+				font-size: 21px;
+				color: white;
+				display: block;
+				padding: 
+					top: 6px;
+					left: 18px;
+	.main-menu
+		width: 360px;	
+		height: 135px;	
+		margin: 
+			left: -160px;
+			top: 0px;
+			bottom: 0px; 
+		position: relative;
+		z-index: 2;
+		display: flex;
+		list-style-type: none;
+		.menu 
+			width: 120px;	
+			text-align: center;
+			vertical-align: top;
+			padding-top: 28px;  
+		
+		.menu:hover 
+			cursor: pointer;
+			width: 200px;
+			height: 120px;
+			border: 2px solid rgb(60,202,213);
+			img 
+				padding-top: 10px;
+				text-align: center;
+			img[src="img/3.png"]
+				padding: 0px;
+				width: 97px;
+				height: 95px;	
+			img[src="img/2.png"]	
+				padding: 0px;
+				width: 58px;
+				height: 87px;
+			img[src="img/1.png"]
+				width: 40px;
+				height: 70px;	
+				  		
+		.first
+				background: rgb(7,158,150); 
+		.second
+		 		background: rgb(4,139,139); 
+		.third
+		 		background: rgb(1,126,130); 		
+.secondsection
+	
+	padding-top: 50px;
+	margin: auto;	
+	max-width: 1280px;
+	text-align: center;
+	.header 
+		font-size: 41px;
+		color: rgb(202,202,202);
+	.text
+	 width: 920px;
+	 margin: auto;
+	 padding: 
+	 		top: 30px;
+	 		bottom: 48px;
+	 font-size: 15px;
+	 color: rgb(194,194,194);		
+.thirdsection
+	background: CadetBlue;
+	width: 1280px;
+	margin-top: 124px;
+	ul
+		display: flex;
+		justify-content: space-between;
+		list-style-type: none;
+		text-align: center;
+		padding: 0px;
+		margin: 0px;
+		.drop_list_a:hover
+			background: rgb(1,100,108);
+		.drop_list_b:hover
+			background: rgb(9,123,132);
+		.drop_list_c:hover
+			background: rgb(17,143,153);
+		.drop_list_d:hover
+			background: rgb(29,160,170);
+		.drop_list_e:hover
+			background: rgb(41,182,192);
+		.drop_list_f:hover
+			background: rgb(60,202,213);	
+
+		li
+			width: 213px;
+			height: 86px;
+			vertical-align: top;
+			padding-top: 10px;
+			margin: auto;
+			a
+				display: block;
+				width: 213px;			
+			ul
+				opacity: 1;
+				position: absolute;
+				top: -3999em;	
+
+		li:hover
+			ul
+				width: 1280px;	
+				position: relative;
+				opacity: 1;
+				top: 0;
+				height: 528px;
+.fourthsection
+	height: 512px;
+	width: 1280px;
+	display: flex;
+	.firstpodpunkt
+		height: 512px;
+		width: 640px;
+		display: inherit;
+		align-items: center;
+		transition: 2s;
+		img
+			margin: auto;
+			padding: auto;
+	.secondpodpunkt
+		height: 512px;
+		width: 640px;
+		background: rgb(73,215,176);
+		display: inherit;
+		align-items: center;
+		transition: 2s; 
+		img
+			margin: auto;
+			padding: auto;
+	.firstpodpunkt:hover
+		width: 782px;
+		background: rgb(95,158,160);
+	.secondpodpunkt:hover
+		width: 782px;	
+		background: rgb(95,158,160);
+		img
+			width: 40%;
+			height: 40%;
+footer
+	height: 100px;
+	width: 1280px;
+	.footer
+		margin: auto;
+		padding: auto;
+		padding-top: 40px;		
+		width: 300px;	
+		span
+			color: rgb(152,152,152);
+			font-size: 23px;
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+				
+			
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+
+
+			
+
+			  
+
+
+				
+	

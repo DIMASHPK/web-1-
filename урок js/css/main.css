@@ -1,0 +1,13 @@
+#temnyi, #svetlyi { width: 430px; }
+
+@media (max-width: 1220px) {
+  #temnyi, #svetlyi { width: 380px; }
+}
+
+@media (max-width: 1120px) {
+  #temnyi, #svetlyi { width: 325px; }
+}
+
+@media (max-width: 680px) {
+  #temnyi, #svetlyi { width: 200px; }
+}

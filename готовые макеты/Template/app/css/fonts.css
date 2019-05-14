@@ -1,0 +1,19 @@
+@font-face {
+    font-family:"St Ryde";
+    src: url("../fonts/StRydeRegular.eot");
+    src: url("../fonts/StRydeRegular.eot?#iefix")format("embedded-opentype");
+    url("../fonts/StRydeRegular.woft") format("woft"),
+    url("../fonts/StRydeRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family:"Segoe WP SemiLight";
+    src: url("../fonts/Segoe WP SemiLight.eot");
+    src: url("../fonts/Segoe WP SemiLight.eot?#iefix")format("embedded-opentype");
+    url("../fonts/Segoe WP SemiLight.woft") format("woft"),
+    url("../fonts/Segoe WP SemiLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

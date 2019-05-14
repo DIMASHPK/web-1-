@@ -1,0 +1,323 @@
+.thirdsection:hover ul .drop_list_a:hover .drop_podmenu_1, .thirdsection:hover ul .drop_list_a:hover .drop_podmenu_1 .drop_podlist, .thirdsection:hover ul .drop_list_a:hover .drop_podmenu_1 .drop_podlist .content, .thirdsection:hover ul .drop_list_b:hover .drop_podmenu_2, .thirdsection:hover ul .drop_list_b:hover .drop_podmenu_2 .drop_podlist, .thirdsection:hover ul .drop_list_b:hover .drop_podmenu_2 .drop_podlist .content, .thirdsection:hover ul .drop_list_c:hover .drop_podmenu_3 .drop_podlist, .thirdsection:hover ul .drop_list_c:hover .drop_podmenu_3 .drop_podlist .content, .thirdsection:hover ul .drop_list_d:hover .drop_podmenu_4 .drop_podlist, .thirdsection:hover ul .drop_list_d:hover .drop_podmenu_4 .drop_podlist .content, .thirdsection:hover ul .drop_list_e:hover .drop_podmenu_5 .drop_podlist, .thirdsection:hover ul .drop_list_e:hover .drop_podmenu_5 .drop_podlist .content, .thirdsection:hover ul .drop_list_f:hover .drop_podmenu_6 .drop_podlist, .thirdsection:hover ul .drop_list_f:hover .drop_podmenu_6 .drop_podlist .content {
+  width: 1280px;
+  height: 528px; }
+
+.thirdsection:hover ul .drop_list_a:hover .drop_podmenu_1 .drop_podlist .content img, .thirdsection:hover ul .drop_list_b:hover .drop_podmenu_2 .drop_podlist .content img, .thirdsection:hover ul .drop_list_c:hover .drop_podmenu_3 .drop_podlist .content img, .thirdsection:hover ul .drop_list_d:hover .drop_podmenu_4 .drop_podlist .content img, .thirdsection:hover ul .drop_list_e:hover .drop_podmenu_5 .drop_podlist .content img, .thirdsection:hover ul .drop_list_f:hover .drop_podmenu_6 .drop_podlist .content img {
+  padding-top: 120px;
+  padding-left: 244px; }
+
+.thirdsection:hover ul .drop_list_a:hover .drop_podmenu_1 .drop_podlist .content .description, .thirdsection:hover ul .drop_list_b:hover .drop_podmenu_2 .drop_podlist .content .description, .thirdsection:hover ul .drop_list_c:hover .drop_podmenu_3 .drop_podlist .content .description, .thirdsection:hover ul .drop_list_d:hover .drop_podmenu_4 .drop_podlist .content .description, .thirdsection:hover ul .drop_list_e:hover .drop_podmenu_5 .drop_podlist .content .description, .thirdsection:hover ul .drop_list_f:hover .drop_podmenu_6 .drop_podlist .content .description {
+  padding-top: 182px;
+  margin-left: -5px;
+  width: 480px; }
+  .thirdsection:hover ul .drop_list_a:hover .drop_podmenu_1 .drop_podlist .content .description .text, .thirdsection:hover ul .drop_list_b:hover .drop_podmenu_2 .drop_podlist .content .description .text, .thirdsection:hover ul .drop_list_c:hover .drop_podmenu_3 .drop_podlist .content .description .text, .thirdsection:hover ul .drop_list_d:hover .drop_podmenu_4 .drop_podlist .content .description .text, .thirdsection:hover ul .drop_list_e:hover .drop_podmenu_5 .drop_podlist .content .description .text, .thirdsection:hover ul .drop_list_f:hover .drop_podmenu_6 .drop_podlist .content .description .text {
+    text-align: left;
+    color: white;
+    padding-bottom: 35px; }
+  .thirdsection:hover ul .drop_list_a:hover .drop_podmenu_1 .drop_podlist .content .description .buy, .thirdsection:hover ul .drop_list_b:hover .drop_podmenu_2 .drop_podlist .content .description .buy, .thirdsection:hover ul .drop_list_c:hover .drop_podmenu_3 .drop_podlist .content .description .buy, .thirdsection:hover ul .drop_list_d:hover .drop_podmenu_4 .drop_podlist .content .description .buy, .thirdsection:hover ul .drop_list_e:hover .drop_podmenu_5 .drop_podlist .content .description .buy, .thirdsection:hover ul .drop_list_f:hover .drop_podmenu_6 .drop_podlist .content .description .buy {
+    width: 172px;
+    height: 45px;
+    display: flex; }
+    .thirdsection:hover ul .drop_list_a:hover .drop_podmenu_1 .drop_podlist .content .description .buy a, .thirdsection:hover ul .drop_list_b:hover .drop_podmenu_2 .drop_podlist .content .description .buy a, .thirdsection:hover ul .drop_list_c:hover .drop_podmenu_3 .drop_podlist .content .description .buy a, .thirdsection:hover ul .drop_list_d:hover .drop_podmenu_4 .drop_podlist .content .description .buy a, .thirdsection:hover ul .drop_list_e:hover .drop_podmenu_5 .drop_podlist .content .description .buy a, .thirdsection:hover ul .drop_list_f:hover .drop_podmenu_6 .drop_podlist .content .description .buy a {
+      width: 55px;
+      height: 45px;
+      margin: 0px;
+      background: #3edac6; }
+    .thirdsection:hover ul .drop_list_a:hover .drop_podmenu_1 .drop_podlist .content .description .buy .buy_now, .thirdsection:hover ul .drop_list_b:hover .drop_podmenu_2 .drop_podlist .content .description .buy .buy_now, .thirdsection:hover ul .drop_list_c:hover .drop_podmenu_3 .drop_podlist .content .description .buy .buy_now, .thirdsection:hover ul .drop_list_d:hover .drop_podmenu_4 .drop_podlist .content .description .buy .buy_now, .thirdsection:hover ul .drop_list_e:hover .drop_podmenu_5 .drop_podlist .content .description .buy .buy_now, .thirdsection:hover ul .drop_list_f:hover .drop_podmenu_6 .drop_podlist .content .description .buy .buy_now {
+      width: 117px; }
+      .thirdsection:hover ul .drop_list_a:hover .drop_podmenu_1 .drop_podlist .content .description .buy .buy_now a, .thirdsection:hover ul .drop_list_b:hover .drop_podmenu_2 .drop_podlist .content .description .buy .buy_now a, .thirdsection:hover ul .drop_list_c:hover .drop_podmenu_3 .drop_podlist .content .description .buy .buy_now a, .thirdsection:hover ul .drop_list_d:hover .drop_podmenu_4 .drop_podlist .content .description .buy .buy_now a, .thirdsection:hover ul .drop_list_e:hover .drop_podmenu_5 .drop_podlist .content .description .buy .buy_now a, .thirdsection:hover ul .drop_list_f:hover .drop_podmenu_6 .drop_podlist .content .description .buy .buy_now a {
+        width: 117px;
+        color: white;
+        text-decoration: none;
+        font-size: 21pt;
+        background: #06ccb3; }
+
+.thirdsection:hover {
+  height: 620px; }
+  .thirdsection:hover ul .drop_list_a:hover .drop_podmenu_1 {
+    top: 1px;
+    background: #01646c; }
+    .thirdsection:hover ul .drop_list_a:hover .drop_podmenu_1 .drop_podlist .content {
+      display: flex; }
+
+.thirdsection:hover {
+  height: 620px; }
+  .thirdsection:hover ul .drop_list_b:hover .drop_podmenu_2 {
+    background: #097b84;
+    right: 213px;
+    top: 0px; }
+    .thirdsection:hover ul .drop_list_b:hover .drop_podmenu_2 .drop_podlist .content {
+      display: flex; }
+
+.thirdsection:hover {
+  height: 620px; }
+  .thirdsection:hover ul .drop_list_c:hover .drop_podmenu_3 {
+    background: #118f99;
+    right: 427px;
+    top: 3px; }
+    .thirdsection:hover ul .drop_list_c:hover .drop_podmenu_3 .drop_podlist .content {
+      display: flex; }
+
+.thirdsection:hover {
+  height: 620px; }
+  .thirdsection:hover ul .drop_list_d:hover .drop_podmenu_4 {
+    background: #1da0aa;
+    right: 640px;
+    top: 11px; }
+    .thirdsection:hover ul .drop_list_d:hover .drop_podmenu_4 .drop_podlist .content {
+      display: flex; }
+
+.thirdsection:hover {
+  height: 620px; }
+  .thirdsection:hover ul .drop_list_e:hover .drop_podmenu_5 {
+    background: #29b6c0;
+    right: 853px;
+    top: 8px; }
+    .thirdsection:hover ul .drop_list_e:hover .drop_podmenu_5 .drop_podlist .content {
+      display: flex; }
+
+.thirdsection:hover {
+  height: 620px; }
+  .thirdsection:hover ul .drop_list_f:hover .drop_podmenu_6 {
+    background: #3ccad5;
+    right: 1067px;
+    top: 14px; }
+    .thirdsection:hover ul .drop_list_f:hover .drop_podmenu_6 .drop_podlist .content {
+      display: flex; }
+
+html {
+  overflow-x: hidden;
+  background: white;
+  font-family: Segoe WP SemiLight;
+  margin: 0 auto;
+  padding: 0;
+  width: 1280px; }
+
+body {
+  margin: auto;
+  padding: auto; }
+
+header {
+  color: black;
+  width: 1024px;
+  height: 75px;
+  margin: 25px auto;
+  margin-bottom: 0px;
+  display: flex; }
+  header .logo {
+    padding-left: 35px; }
+  header .letters {
+    font-family: St Ryde;
+    color: #038c8c;
+    padding-left: 8px;
+    font-size: 43px; }
+  header .main-menu {
+    font-size: 19px;
+    padding-top: 10px;
+    color: #9b9b9b; }
+    header .main-menu span {
+      padding-right: 20px;
+      padding-left: 20px;
+      border-right: 1px solid #666666; }
+    header .main-menu .menu {
+      border-right: none; }
+
+main {
+  min-width: 1280px;
+  max-width: 75%;
+  margin: auto;
+  padding: auto;
+  z-index: 2; }
+
+.firstsection {
+  margin: auto;
+  padding: auto;
+  background: url(../img/bgr.png) no-repeat;
+  min-height: 539px;
+  min-width: 1280px;
+  max-width: 1600px;
+  display: flex; }
+  .firstsection img[src="img/iphone.png"] {
+    padding-top: 60px;
+    padding-left: 296px; }
+  .firstsection .description {
+    width: 400px;
+    padding-top: 180px;
+    padding-left: 88px;
+    position: relative;
+    z-index: 1; }
+  .firstsection .earth {
+    height: 60px;
+    width: 160px;
+    display: flex;
+    padding-bottom: 60px; }
+    .firstsection .earth span {
+      font-size: 21px;
+      padding-left: 10px;
+      color: white; }
+  .firstsection .text {
+    padding-bottom: 35px;
+    width: 350px; }
+    .firstsection .text span {
+      color: white; }
+  .firstsection .buy {
+    display: flex; }
+    .firstsection .buy a svg {
+      height: 45px;
+      width: 55px;
+      background: #259d8e; }
+    .firstsection .buy div {
+      height: 45px;
+      width: 115px;
+      background: #54d3c3; }
+      .firstsection .buy div a {
+        text-decoration: none;
+        font-size: 21px;
+        color: white;
+        display: block;
+        padding-top: 6px;
+        padding-left: 18px; }
+  .firstsection .main-menu {
+    width: 360px;
+    height: 135px;
+    margin-left: -160px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    list-style-type: none; }
+    .firstsection .main-menu .menu {
+      width: 120px;
+      text-align: center;
+      vertical-align: top;
+      padding-top: 28px; }
+    .firstsection .main-menu .menu:hover {
+      cursor: pointer;
+      width: 200px;
+      height: 120px;
+      border: 2px solid #3ccad5; }
+      .firstsection .main-menu .menu:hover img {
+        padding-top: 10px;
+        text-align: center; }
+      .firstsection .main-menu .menu:hover img[src="img/3.png"] {
+        padding: 0px;
+        width: 97px;
+        height: 95px; }
+      .firstsection .main-menu .menu:hover img[src="img/2.png"] {
+        padding: 0px;
+        width: 58px;
+        height: 87px; }
+      .firstsection .main-menu .menu:hover img[src="img/1.png"] {
+        width: 40px;
+        height: 70px; }
+    .firstsection .main-menu .first {
+      background: #079e96; }
+    .firstsection .main-menu .second {
+      background: #048b8b; }
+    .firstsection .main-menu .third {
+      background: #017e82; }
+
+.secondsection {
+  padding-top: 50px;
+  margin: auto;
+  max-width: 1280px;
+  text-align: center; }
+  .secondsection .header {
+    font-size: 41px;
+    color: #cacaca; }
+  .secondsection .text {
+    width: 920px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 48px;
+    font-size: 15px;
+    color: #c2c2c2; }
+
+.thirdsection {
+  background: CadetBlue;
+  width: 1280px;
+  margin-top: 124px; }
+  .thirdsection ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+    margin: 0px; }
+    .thirdsection ul .drop_list_a:hover {
+      background: #01646c; }
+    .thirdsection ul .drop_list_b:hover {
+      background: #097b84; }
+    .thirdsection ul .drop_list_c:hover {
+      background: #118f99; }
+    .thirdsection ul .drop_list_d:hover {
+      background: #1da0aa; }
+    .thirdsection ul .drop_list_e:hover {
+      background: #29b6c0; }
+    .thirdsection ul .drop_list_f:hover {
+      background: #3ccad5; }
+    .thirdsection ul li {
+      width: 213px;
+      height: 86px;
+      vertical-align: top;
+      padding-top: 10px;
+      margin: auto; }
+      .thirdsection ul li a {
+        display: block;
+        width: 213px; }
+      .thirdsection ul li ul {
+        opacity: 1;
+        position: absolute;
+        top: -3999em; }
+    .thirdsection ul li:hover ul {
+      width: 1280px;
+      position: relative;
+      opacity: 1;
+      top: 0;
+      height: 528px; }
+
+.fourthsection {
+  height: 512px;
+  width: 1280px;
+  display: flex; }
+  .fourthsection .firstpodpunkt {
+    height: 512px;
+    width: 640px;
+    display: inherit;
+    align-items: center;
+    transition: 2s; }
+    .fourthsection .firstpodpunkt img {
+      margin: auto;
+      padding: auto; }
+  .fourthsection .secondpodpunkt {
+    height: 512px;
+    width: 640px;
+    background: #49d7b0;
+    display: inherit;
+    align-items: center;
+    transition: 2s; }
+    .fourthsection .secondpodpunkt img {
+      margin: auto;
+      padding: auto; }
+  .fourthsection .firstpodpunkt:hover {
+    width: 782px;
+    background: cadetblue; }
+  .fourthsection .secondpodpunkt:hover {
+    width: 782px;
+    background: cadetblue; }
+    .fourthsection .secondpodpunkt:hover img {
+      width: 40%;
+      height: 40%; }
+
+footer {
+  height: 100px;
+  width: 1280px; }
+  footer .footer {
+    margin: auto;
+    padding: auto;
+    padding-top: 40px;
+    width: 300px; }
+    footer .footer span {
+      color: #989898;
+      font-size: 23px; }

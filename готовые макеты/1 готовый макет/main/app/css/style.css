@@ -1,0 +1,139 @@
+body {
+  margin: 0 auto;
+  font-family: Arial;
+}
+
+.products {
+  width: 960px;
+  height: 830px;
+  margin: auto;
+  border-left:1px solid rgb(208,208,208);
+  border-right:1px solid rgb(208,208,208);
+  border-bottom:1px solid rgb(245,128,37);
+
+}
+
+.twelveitems {
+  display: block;
+  padding-left: 20px;
+  padding-top: 15px;
+  font-weight: bold;
+  color: rgb(147,145,145);
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+
+.product-tile {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 450px;
+  height: 310px;
+  border: 1px solid rgb(208,208,208);
+  border-radius: 5px;
+  background-color: rgb(239,240,243);
+  display: inline-block;
+}
+
+.product-image {
+  height: 200px;
+  width: 148px;
+  margin:20px 0px 20px 20px;
+  border: 1px solid rgb(208,208,208);
+  background-color: rgb(255,255,255);
+  display: inline-block;
+
+}
+
+img[src="img/1item.png"] {
+  display: block;
+  position: relative;
+  top: 70px;
+  left: 10px;
+}
+
+.badge-new {
+  position: absolute;
+  background: rgb(245,128,35);
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+
+.product-info {
+  display: inline-block;
+  width: 235px;
+  float: right;
+  margin-top: 20px;
+  margin-right: 25px;
+}
+
+a[ title="Rituxan"] {
+  margin-bottom: 10px;
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(128,126,127);
+}
+
+.additional-info {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(26,187,181);
+  margin-bottom: 37px;
+}
+
+.product-sku {
+  font-family: Helvetica;
+  font-size: 12px;
+  margin-bottom: 18px;
+}
+
+.product-description {
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.read-more {
+  text-decoration: none;
+  color: rgb(26,187,181);
+}
+
+.product-actions {
+  border-top: 1px solid rgb(128,126,127);
+  margin: 0px 20px;
+  padding-top: 20px;
+}
+
+.select-note {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(69,64,64);
+  display: inline-block;
+}
+
+form[action="#"] {
+  display: inline-block;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(69,64,64);
+  padding-left: 120px;
+}
+
+input[type="number"] {
+  width:40px;
+  height: 22px;
+  margin: 0px 10px 0px  6px;
+}
+
+button[type="submit"] {
+  height: 30px;
+  width: 97px;
+  color: white;
+  background: rgb(26,187,181);
+  border-radius: 5px;
+  border: none;
+}

@@ -1,0 +1,17 @@
+
+
+.block
+	{
+	margin: 20px;	
+	display: flex;
+	flex-direction: column;
+	align-items: center;}
+.block	span {
+		width: 20px;
+		height: 20px;
+		display: inline-block;
+		border: 1px solid black;
+		text-align: center; }
+	#switch1:checked ~ .inblock {
+		display: none;}
+

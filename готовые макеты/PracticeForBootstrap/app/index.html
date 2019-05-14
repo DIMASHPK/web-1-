@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+		<!--Шапка сайта-->
+	<header class="section">
+		<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-lg-offset-1 col-md-6">
+						<span class="logo">Cage app</span> 	
+					</div> 
+					<div class="col-lg-5 col-lg-offset-1">
+						<ul class="mainMenu">
+							<li class="itemOfMenu">
+								<img src="img/icon1.png" alt="home" class="itemLogo" height="18" width="19" />
+								<span class="itemName">Home</span>
+							</li>
+							<li class="itemOfMenu">
+									<img src="img/icon2.png" alt="gallery" class="itemLogo" height="15" width="22"/>
+									<span class="itemName">Gallery</span>
+							</li>
+							<li class="itemOfMenu">
+								<img src="img/icon3.png" alt="members" class="itemLogo" height="17" width="27"/>
+								<span class="itemName">Members</span>
+							</li>
+							<li class="itemOfMenu">
+								<img src="img/icon4.png" alt="logout" class="itemLogo" height="20" width="17"/>
+								<span class="itemName">logout</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>	
+	</header>
+		<!--Основа сайта-->
+	<section>
+		<div class="container">
+			<!--Заголовок-->
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h1 class="Select">Please select an image from your computer</h1>
+				</div>
+			</div>
+			<!-- Поле для загрузки фото -->
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3">
+					<form action="" method="post">
+						<div class="chooseImg">
+							<input type="file" name="srcImg" id="src">
+						</div>
+						<div class="browse">
+							<label for="src">
+								<p class="btnBrowse">Browse</p>
+							</label>
+						</div>						
+						<input type="submit" value="Upload image" class="btnSend">
+					</form>
+				</div>
+			</div>
+			<!-- Фото -->
+			<div class="row">
+				<div class="col-lg-11 blockPhoto">
+					<div class="container-fluid photos">
+						<div class="row one">
+							<div class="col-lg-3 col-md-3">
+								<div class="inner">
+									<img src="img/image1.png" alt="" class="image">
+									<div class="description text-center">
+									 	<span>Lorem ipsum is simply</span>
+									 	<img src="img/strar.png" alt="">
+									</div>
+									<div class="share">
+										<span class="sharetxt">share</span>
+										<div class="socialMedia">
+											<ul class="dropMenu">
+												<li class="menu_list">
+													<a href="https://twitter.com/?lang=ru"><img src="img/tw.png" alt=""></a>	
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in twitter</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.facebook.com/"><img src="img/fb.png" alt=""></a>
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in facebook</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.tumblr.com/"><img src="img/t.png" alt=""></a>	
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in pinterest</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.pinterest.com/"><img src="img/pt.png" alt=""></a>
+														<ul class="dropPodMenu">
+															<li class="dropPodList">
+																<svg class="triangle">
+																	<polyline points="1,5 17,5 9,1" fill="black" />
+																</svg>
+																<span class="txtShare">share in tumbler</span>
+															</li> 
+														</ul>
+													</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-3">
+								<div class="inner">
+									<img src="img/image2.png" alt="" class="image">
+									<div class="description text-center">
+									 	<span>Lorem ipsum is simply</span>
+									 	<img src="img/strar.png" alt="">
+									</div>
+									<div class="share">
+										<span class="sharetxt">share</span>
+										<div class="socialMedia">
+											<ul class="dropMenu">
+												<li class="menu_list">
+													<a href="https://twitter.com/?lang=ru"><img src="img/tw.png" alt=""></a>	
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in twitter</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.facebook.com/"><img src="img/fb.png" alt=""></a>
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in facebook</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.tumblr.com/"><img src="img/t.png" alt=""></a>	
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in pinterest</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.pinterest.com/"><img src="img/pt.png" alt=""></a>
+														<ul class="dropPodMenu">
+															<li class="dropPodList">
+																<svg class="triangle">
+																	<polyline points="1,5 17,5 9,1" fill="black" />
+																</svg>
+																<span class="txtShare">share in tumbler</span>
+															</li> 
+														</ul>
+													</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-3">
+								<div class="inner">
+									<img src="img/image3.png" alt="" class="image">
+									<div class="description text-center">
+									 	<span>Lorem ipsum is simply</span>
+									 	<img src="img/strar.png" alt="">
+									</div>
+									<div class="share">
+										<span class="sharetxt">share</span>
+										<div class="socialMedia">
+											<ul class="dropMenu">
+												<li class="menu_list">
+													<a href="https://twitter.com/?lang=ru"><img src="img/tw.png" alt=""></a>	
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in twitter</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.facebook.com/"><img src="img/fb.png" alt=""></a>
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in facebook</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.tumblr.com/"><img src="img/t.png" alt=""></a>	
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in pinterest</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.pinterest.com/"><img src="img/pt.png" alt=""></a>
+														<ul class="dropPodMenu">
+															<li class="dropPodList">
+																<svg class="triangle">
+																	<polyline points="1,5 17,5 9,1" fill="black" />
+																</svg>
+																<span class="txtShare">share in tumbler</span>
+															</li> 
+														</ul>
+													</li>
+											</ul>
+										</div>									
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-3">
+								<div class="inner">
+									<img src="img/image4.png" alt="" class="image">
+								  <div class="description text-center">
+									 	<span>Lorem ipsum is simply</span>
+									 	<img src="img/strar.png" alt="">
+									</div>
+									<div class="share">
+										<span class="sharetxt">share</span>
+										<div class="socialMedia">
+											<ul class="dropMenu">
+												<li class="menu_list">
+													<a href="https://twitter.com/?lang=ru"><img src="img/tw.png" alt=""></a>	
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in twitter</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.facebook.com/"><img src="img/fb.png" alt=""></a>
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in facebook</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.tumblr.com/"><img src="img/t.png" alt=""></a>	
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in pinterest</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.pinterest.com/"><img src="img/pt.png" alt=""></a>
+														<ul class="dropPodMenu">
+															<li class="dropPodList">
+																<svg class="triangle">
+																	<polyline points="1,5 17,5 9,1" fill="black" />
+																</svg>
+																<span class="txtShare">share in tumbler</span>
+															</li> 
+														</ul>
+													</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row one">
+							<div class="col-lg-3 col-md-3">
+								<div class="inner">
+									<img src="img/image5.png" alt="" class="image">
+									<div class="description text-center">
+									 	<span>Lorem ipsum is simply</span>
+									 	<img src="img/strar.png" alt="">
+									</div>
+									<div class="share">
+										<span class="sharetxt">share</span>
+										<div class="socialMedia">
+											<ul class="dropMenu">
+												<li class="menu_list">
+													<a href="https://twitter.com/?lang=ru"><img src="img/tw.png" alt=""></a>	
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in twitter</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.facebook.com/"><img src="img/fb.png" alt=""></a>
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in facebook</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.tumblr.com/"><img src="img/t.png" alt=""></a>	
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in pinterest</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.pinterest.com/"><img src="img/pt.png" alt=""></a>
+														<ul class="dropPodMenu">
+															<li class="dropPodList">
+																<svg class="triangle">
+																	<polyline points="1,5 17,5 9,1" fill="black" />
+																</svg>
+																<span class="txtShare">share in tumbler</span>
+															</li> 
+														</ul>
+													</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-3">
+								<div class="inner">
+									<img src="img/image6.png" alt="" class="image">
+									<div class="description text-center">
+									 	<span>Lorem ipsum is simply</span>
+									 	<img src="img/strar.png" alt="">
+									</div>
+									<div class="share">
+										<span class="sharetxt">share</span>
+										<div class="socialMedia">
+											<ul class="dropMenu">
+												<li class="menu_list">
+													<a href="https://twitter.com/?lang=ru"><img src="img/tw.png" alt=""></a>	
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in twitter</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.facebook.com/"><img src="img/fb.png" alt=""></a>
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in facebook</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.tumblr.com/"><img src="img/t.png" alt=""></a>	
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in pinterest</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.pinterest.com/"><img src="img/pt.png" alt=""></a>
+														<ul class="dropPodMenu">
+															<li class="dropPodList">
+																<svg class="triangle">
+																	<polyline points="1,5 17,5 9,1" fill="black" />
+																</svg>
+																<span class="txtShare">share in tumbler</span>
+															</li> 
+														</ul>
+													</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-3">
+								<div class="inner">
+									<img src="img/7.png" alt="" class="image">
+									<div class="description text-center">
+									 	<span>Lorem ipsum is simply</span>
+									 	<img src="img/strar.png" alt="">
+									</div>
+									<div class="share">
+										<span class="sharetxt">share</span>
+										<div class="socialMedia">
+											<ul class="dropMenu">
+												<li class="menu_list">
+													<a href="https://twitter.com/?lang=ru"><img src="img/tw.png" alt=""></a>	
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in twitter</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.facebook.com/"><img src="img/fb.png" alt=""></a>
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in facebook</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.tumblr.com/"><img src="img/t.png" alt=""></a>	
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in pinterest</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.pinterest.com/"><img src="img/pt.png" alt=""></a>
+														<ul class="dropPodMenu">
+															<li class="dropPodList">
+																<svg class="triangle">
+																	<polyline points="1,5 17,5 9,1" fill="black" />
+																</svg>
+																<span class="txtShare">share in tumbler</span>
+															</li> 
+														</ul>
+													</li>
+											</ul>
+										</div>									
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-3">
+								<div class="inner">
+									<img src="img/image8.png" alt="" class="image">
+								  <div class="description text-center">
+									 	<span>Lorem ipsum is simply</span>
+									 	<img src="img/strar.png" alt="">
+									</div>
+									<div class="share">
+										<span class="sharetxt">share</span>
+										<div class="socialMedia">
+											<ul class="dropMenu">
+												<li class="menu_list">
+													<a href="https://twitter.com/?lang=ru"><img src="img/tw.png" alt=""></a>	
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in twitter</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.facebook.com/"><img src="img/fb.png" alt=""></a>
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in facebook</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.tumblr.com/"><img src="img/t.png" alt=""></a>	
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in pinterest</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.pinterest.com/"><img src="img/pt.png" alt=""></a>
+														<ul class="dropPodMenu">
+															<li class="dropPodList">
+																<svg class="triangle">
+																	<polyline points="1,5 17,5 9,1" fill="black" />
+																</svg>
+																<span class="txtShare">share in tumbler</span>
+															</li> 
+														</ul>
+													</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row one">
+							<div class="col-lg-3 col-md-3">
+								<div class="inner">
+									<img src="img/image9.png" alt="" class="image">
+									<div class="description text-center">
+									 	<span>Lorem ipsum is simply</span>
+									 	<img src="img/strar.png" alt="">
+									</div>
+									<div class="share">
+										<span class="sharetxt">share</span>
+										<div class="socialMedia">
+											<ul class="dropMenu">
+												<li class="menu_list">
+													<a href="https://twitter.com/?lang=ru"><img src="img/tw.png" alt=""></a>	
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in twitter</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.facebook.com/"><img src="img/fb.png" alt=""></a>
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in facebook</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.tumblr.com/"><img src="img/t.png" alt=""></a>	
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in pinterest</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.pinterest.com/"><img src="img/pt.png" alt=""></a>
+														<ul class="dropPodMenu">
+															<li class="dropPodList">
+																<svg class="triangle">
+																	<polyline points="1,5 17,5 9,1" fill="black" />
+																</svg>
+																<span class="txtShare">share in tumbler</span>
+															</li> 
+														</ul>
+													</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-3">
+								<div class="inner">
+									<img src="img/image10.png" alt="" class="image">
+									<div class="description text-center">
+									 	<span>Lorem ipsum is simply</span>
+									 	<img src="img/strar.png" alt="">
+									</div>
+									<div class="share">
+										<span class="sharetxt">share</span>
+										<div class="socialMedia">
+											<ul class="dropMenu">
+												<li class="menu_list">
+													<a href="https://twitter.com/?lang=ru"><img src="img/tw.png" alt=""></a>	
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in twitter</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.facebook.com/"><img src="img/fb.png" alt=""></a>
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in facebook</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.tumblr.com/"><img src="img/t.png" alt=""></a>	
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in pinterest</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.pinterest.com/"><img src="img/pt.png" alt=""></a>
+														<ul class="dropPodMenu">
+															<li class="dropPodList">
+																<svg class="triangle">
+																	<polyline points="1,5 17,5 9,1" fill="black" />
+																</svg>
+																<span class="txtShare">share in tumbler</span>
+															</li> 
+														</ul>
+													</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-3">
+								<div class="inner">
+									<img src="img/image11.png" alt="" class="image">
+									<div class="description text-center">
+									 	<span>Lorem ipsum is simply</span>
+									 	<img src="img/strar.png" alt="">
+									</div>
+									<div class="share">
+										<span class="sharetxt">share</span>
+										<div class="socialMedia">
+											<ul class="dropMenu">
+												<li class="menu_list">
+													<a href="https://twitter.com/?lang=ru"><img src="img/tw.png" alt=""></a>	
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in twitter</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.facebook.com/"><img src="img/fb.png" alt=""></a>
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in facebook</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.tumblr.com/"><img src="img/t.png" alt=""></a>	
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in pinterest</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.pinterest.com/"><img src="img/pt.png" alt=""></a>
+														<ul class="dropPodMenu">
+															<li class="dropPodList">
+																<svg class="triangle">
+																	<polyline points="1,5 17,5 9,1" fill="black" />
+																</svg>
+																<span class="txtShare">share in tumbler</span>
+															</li> 
+														</ul>
+													</li>
+											</ul>
+										</div>									
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-3">
+								<div class="inner">
+									<img src="img/image12.png" alt="" class="image">
+								  <div class="description text-center">
+									 	<span>Lorem ipsum is simply</span>
+									 	<img src="img/strar.png" alt="">
+									</div>
+									<div class="share">
+										<span class="sharetxt">share</span>
+										<div class="socialMedia">
+											<ul class="dropMenu">
+												<li class="menu_list">
+													<a href="https://twitter.com/?lang=ru"><img src="img/tw.png" alt=""></a>	
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in twitter</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.facebook.com/"><img src="img/fb.png" alt=""></a>
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in facebook</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.tumblr.com/"><img src="img/t.png" alt=""></a>	
+													<ul class="dropPodMenu">
+														<li class="dropPodList">
+															<svg class="triangle">
+																<polyline points="1,5 17,5 9,1" fill="black" />
+															</svg>
+															<span class="txtShare">share in pinterest</span>
+														</li> 
+													</ul>
+												</li>
+												<li class="menu_list">
+													<a href="https://www.pinterest.com/"><img src="img/pt.png" alt=""></a>
+														<ul class="dropPodMenu">
+															<li class="dropPodList">
+																<svg class="triangle">
+																	<polyline points="1,5 17,5 9,1" fill="black" />
+																</svg>
+																<span class="txtShare">share in tumbler</span>
+															</li> 
+														</ul>
+													</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+	<!--Футер сайта-->
+	<footer class="container">
+		<div class="col-lg-6 col-lg-offset-5">
+			<span class="text-right footer">© 2013 Photocage app  powered by cssauthor.com</span>
+		</div>	
+	</footer>
+</body>
+</html>

@@ -1,0 +1,86 @@
+.thirdsection:hover ul .drop_list_a:hover .drop_podmenu_1, .thirdsection:hover ul .drop_list_a:hover .drop_podmenu_1 .drop_podlist, .thirdsection:hover ul .drop_list_a:hover .drop_podmenu_1 .drop_podlist .content, .thirdsection:hover ul .drop_list_b:hover .drop_podmenu_2, .thirdsection:hover ul .drop_list_b:hover .drop_podmenu_2 .drop_podlist, .thirdsection:hover ul .drop_list_b:hover .drop_podmenu_2 .drop_podlist .content, .thirdsection:hover ul .drop_list_c:hover .drop_podmenu_3 .drop_podlist, .thirdsection:hover ul .drop_list_c:hover .drop_podmenu_3 .drop_podlist .content, .thirdsection:hover ul .drop_list_d:hover .drop_podmenu_4 .drop_podlist, .thirdsection:hover ul .drop_list_d:hover .drop_podmenu_4 .drop_podlist .content, .thirdsection:hover ul .drop_list_e:hover .drop_podmenu_5 .drop_podlist, .thirdsection:hover ul .drop_list_e:hover .drop_podmenu_5 .drop_podlist .content, .thirdsection:hover ul .drop_list_f:hover .drop_podmenu_6 .drop_podlist, .thirdsection:hover ul .drop_list_f:hover .drop_podmenu_6 .drop_podlist .content {
+  width: 1280px;
+  height: 528px; }
+
+.thirdsection:hover ul .drop_list_a:hover .drop_podmenu_1 .drop_podlist .content img, .thirdsection:hover ul .drop_list_b:hover .drop_podmenu_2 .drop_podlist .content img, .thirdsection:hover ul .drop_list_c:hover .drop_podmenu_3 .drop_podlist .content img, .thirdsection:hover ul .drop_list_d:hover .drop_podmenu_4 .drop_podlist .content img, .thirdsection:hover ul .drop_list_e:hover .drop_podmenu_5 .drop_podlist .content img, .thirdsection:hover ul .drop_list_f:hover .drop_podmenu_6 .drop_podlist .content img {
+  padding-top: 120px;
+  padding-left: 244px; }
+
+.thirdsection:hover ul .drop_list_a:hover .drop_podmenu_1 .drop_podlist .content .description, .thirdsection:hover ul .drop_list_b:hover .drop_podmenu_2 .drop_podlist .content .description, .thirdsection:hover ul .drop_list_c:hover .drop_podmenu_3 .drop_podlist .content .description, .thirdsection:hover ul .drop_list_d:hover .drop_podmenu_4 .drop_podlist .content .description, .thirdsection:hover ul .drop_list_e:hover .drop_podmenu_5 .drop_podlist .content .description, .thirdsection:hover ul .drop_list_f:hover .drop_podmenu_6 .drop_podlist .content .description {
+  padding-top: 182px;
+  margin-left: -5px;
+  width: 480px; }
+  .thirdsection:hover ul .drop_list_a:hover .drop_podmenu_1 .drop_podlist .content .description .text, .thirdsection:hover ul .drop_list_b:hover .drop_podmenu_2 .drop_podlist .content .description .text, .thirdsection:hover ul .drop_list_c:hover .drop_podmenu_3 .drop_podlist .content .description .text, .thirdsection:hover ul .drop_list_d:hover .drop_podmenu_4 .drop_podlist .content .description .text, .thirdsection:hover ul .drop_list_e:hover .drop_podmenu_5 .drop_podlist .content .description .text, .thirdsection:hover ul .drop_list_f:hover .drop_podmenu_6 .drop_podlist .content .description .text {
+    text-align: left;
+    color: white;
+    padding-bottom: 35px; }
+  .thirdsection:hover ul .drop_list_a:hover .drop_podmenu_1 .drop_podlist .content .description .buy, .thirdsection:hover ul .drop_list_b:hover .drop_podmenu_2 .drop_podlist .content .description .buy, .thirdsection:hover ul .drop_list_c:hover .drop_podmenu_3 .drop_podlist .content .description .buy, .thirdsection:hover ul .drop_list_d:hover .drop_podmenu_4 .drop_podlist .content .description .buy, .thirdsection:hover ul .drop_list_e:hover .drop_podmenu_5 .drop_podlist .content .description .buy, .thirdsection:hover ul .drop_list_f:hover .drop_podmenu_6 .drop_podlist .content .description .buy {
+    width: 172px;
+    height: 45px;
+    display: flex; }
+    .thirdsection:hover ul .drop_list_a:hover .drop_podmenu_1 .drop_podlist .content .description .buy a, .thirdsection:hover ul .drop_list_b:hover .drop_podmenu_2 .drop_podlist .content .description .buy a, .thirdsection:hover ul .drop_list_c:hover .drop_podmenu_3 .drop_podlist .content .description .buy a, .thirdsection:hover ul .drop_list_d:hover .drop_podmenu_4 .drop_podlist .content .description .buy a, .thirdsection:hover ul .drop_list_e:hover .drop_podmenu_5 .drop_podlist .content .description .buy a, .thirdsection:hover ul .drop_list_f:hover .drop_podmenu_6 .drop_podlist .content .description .buy a {
+      width: 55px;
+      height: 45px;
+      margin: 0px;
+      background: #3edac6; }
+    .thirdsection:hover ul .drop_list_a:hover .drop_podmenu_1 .drop_podlist .content .description .buy .buy_now, .thirdsection:hover ul .drop_list_b:hover .drop_podmenu_2 .drop_podlist .content .description .buy .buy_now, .thirdsection:hover ul .drop_list_c:hover .drop_podmenu_3 .drop_podlist .content .description .buy .buy_now, .thirdsection:hover ul .drop_list_d:hover .drop_podmenu_4 .drop_podlist .content .description .buy .buy_now, .thirdsection:hover ul .drop_list_e:hover .drop_podmenu_5 .drop_podlist .content .description .buy .buy_now, .thirdsection:hover ul .drop_list_f:hover .drop_podmenu_6 .drop_podlist .content .description .buy .buy_now {
+      width: 117px; }
+      .thirdsection:hover ul .drop_list_a:hover .drop_podmenu_1 .drop_podlist .content .description .buy .buy_now a, .thirdsection:hover ul .drop_list_b:hover .drop_podmenu_2 .drop_podlist .content .description .buy .buy_now a, .thirdsection:hover ul .drop_list_c:hover .drop_podmenu_3 .drop_podlist .content .description .buy .buy_now a, .thirdsection:hover ul .drop_list_d:hover .drop_podmenu_4 .drop_podlist .content .description .buy .buy_now a, .thirdsection:hover ul .drop_list_e:hover .drop_podmenu_5 .drop_podlist .content .description .buy .buy_now a, .thirdsection:hover ul .drop_list_f:hover .drop_podmenu_6 .drop_podlist .content .description .buy .buy_now a {
+        width: 117px;
+        color: white;
+        text-decoration: none;
+        font-size: 21pt;
+        background: #06ccb3; }
+
+.thirdsection:hover {
+  height: 620px; }
+  .thirdsection:hover ul .drop_list_a:hover .drop_podmenu_1 {
+    top: 1px;
+    background: #01646c; }
+    .thirdsection:hover ul .drop_list_a:hover .drop_podmenu_1 .drop_podlist .content {
+      display: flex; }
+
+.thirdsection:hover {
+  height: 620px; }
+  .thirdsection:hover ul .drop_list_b:hover .drop_podmenu_2 {
+    background: #097b84;
+    right: 213px;
+    top: 0px; }
+    .thirdsection:hover ul .drop_list_b:hover .drop_podmenu_2 .drop_podlist .content {
+      display: flex; }
+
+.thirdsection:hover {
+  height: 620px; }
+  .thirdsection:hover ul .drop_list_c:hover .drop_podmenu_3 {
+    background: #118f99;
+    right: 427px;
+    top: 3px; }
+    .thirdsection:hover ul .drop_list_c:hover .drop_podmenu_3 .drop_podlist .content {
+      display: flex; }
+
+.thirdsection:hover {
+  height: 620px; }
+  .thirdsection:hover ul .drop_list_d:hover .drop_podmenu_4 {
+    background: #1da0aa;
+    right: 640px;
+    top: 11px; }
+    .thirdsection:hover ul .drop_list_d:hover .drop_podmenu_4 .drop_podlist .content {
+      display: flex; }
+
+.thirdsection:hover {
+  height: 620px; }
+  .thirdsection:hover ul .drop_list_e:hover .drop_podmenu_5 {
+    background: #29b6c0;
+    right: 853px;
+    top: 8px; }
+    .thirdsection:hover ul .drop_list_e:hover .drop_podmenu_5 .drop_podlist .content {
+      display: flex; }
+
+.thirdsection:hover {
+  height: 620px; }
+  .thirdsection:hover ul .drop_list_f:hover .drop_podmenu_6 {
+    background: #3ccad5;
+    right: 1067px;
+    top: 14px; }
+    .thirdsection:hover ul .drop_list_f:hover .drop_podmenu_6 .drop_podlist .content {
+      display: flex; }
